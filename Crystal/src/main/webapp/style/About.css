@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+.content {
+	text-align: center;
+	align-self: center;
+	display: block;
+	width: 700px;
+	margin: auto;
+	margin-top: 10%;
+	font-family: 'Aladin', cursive;
+	font-weight:bold;
+	font-size: 48px;
+	color:white;
+
+	
+}
+
+.headabout {
+	text-align: center;
+	margin-top: 7%;
+	text-decoration: underline;
+	font-family: 'Aladin', cursive;
+	font-weight: bold;
+	font-size: 45px;
+	letter-spacing: 2px;
+	color: white;
+}

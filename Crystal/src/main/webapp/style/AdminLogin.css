@@ -1,0 +1,126 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.body{
+    background-image: url("https://images.unsplash.com/photo-1617957718646-244395cc8409?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxODMxNDc4OQ&ixlib=rb-1.2.1&q=85");
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 0px;
+    font-family: 'Lato', sans-serif;
+}
+.body .layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    /*  To keep login form in center of the page    */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.form{
+    position: relative;
+    margin: 20px 0px;
+    width: 90%;
+    max-width: 480px;
+    text-align: center;
+/*     background: #fff; */
+  background-image:url("https://images.unsplash.com/photo-1617957718646-244395cc8409?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxODMxNDc4OQ&ixlib=rb-1.2.1&q=85");
+    padding: 43px 40px;
+    border-radius: 2px;
+}
+.form .heading{
+    color: #fff;
+    font-size: 25px;
+    margin: 0px 0 0px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.form .input{
+    width: 100%;
+    padding: 15px;
+/*     background: #f8f8f8; */
+  background-color:rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom: 25px;
+    color: white !important ;
+    font-size: 13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.form .radio{
+	display: inline;
+	text-align: left;
+	letter-spacing: 2px;
+	color:black;
+    font-size:17px
+}
+.form .input:focus{
+ 
+    outline:none;
+    border:1px solid #8BC3A3
+}
+.form .submit{
+    width: 100%;
+    padding: 0 20px;
+    line-height: 50px;
+    background: #6A1B9A;
+ 
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+.form .submit:hover{
+/*     background-color: #1a9dc9; */
+  background-color:#AD1457;
+}
+.form .input-box{
+    margin-top: 40px;
+}
+
+::-webkit-input-placeholder{
+    color:black;
+    font-size:17px
+}
+:-moz-placeholder{
+    color:black;
+    font-size:17px
+}
+::-moz-placeholder{
+    color:black;
+    font-size:17px
+}
+:-ms-input-placeholder{
+    color:black;
+    font-size:17px
+}

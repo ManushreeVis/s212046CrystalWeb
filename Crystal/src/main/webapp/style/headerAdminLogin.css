@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	flex-direction: row;
+	flex-wrap: wrap;
+	display: flex;
+	opacity: 1.0;
+	width: 100%;
+	justify-content: space-between;
+	background-image:
+		url("https://images.unsplash.com/photo-1610259419044-3228653c278b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxODIzNTk5Mg&ixlib=rb-1.2.1&q=85");
+
+/* 	background-color: #5b9aa0; */
+
+}
+
+#brand {
+	color: white;
+	font-weight: 1000;
+	font-style: italic;
+	font-family: 'Codystar', cursive;
+	font-size: 40px;
+	text-align: center;
+	padding: 10px;
+	padding-left: 25px;
+}
+
+ul {
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+
+ul li {
+	list-style: none;
+	display: inline;
+	text-align: center;
+	margin-right: 20px;
+	line-height: 24px;
+}
+
+ul li a {
+	flex-grow: 1;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: monospace;
+	color: white;
+	font-weight: 900;
+	padding: 2px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+ul li a:hover {
+	font-size: 25px;
+	border-top: 1px solid white;
+	border-bottom: 1 solid white
+}
+
+#welcome-section {
+	height: 100vmin;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.large-title {
+	font-size: 3rem;
+}
+
+#welcome-text-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	margin-bottom: 20px;
+}
+
+#welcome-text-box h2 {
+	font-weight: 100;
+	letter-spacing: 4px;
+}
+
+#welcome-text-box h1 {
+	border: solid 3px white;
+	padding: 10px;
+	margin: 20px 0;
+	letter-spacing: 10px;
+	font-weight: 100;
+}
